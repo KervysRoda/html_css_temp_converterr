@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #390336;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #00407c;
+}
+
+h2 {
+    color: #000000;
+}
+
+h3 {
+    color: #000000;
+}
+
+#loginForm,
+#converterForm {
+    background-color: #6e6e6e;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="button"],
+input[type="radio"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="button"] {
+    background-color: #000000;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #525252;
+}
+
+p {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #000000;
+}
